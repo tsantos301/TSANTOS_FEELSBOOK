@@ -1,0 +1,192 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:design:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c793c22f3b50945599000f859a0c5d22/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8c0187fd8c0c3418596bb3d019c8b85c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/657f94f8f47fa7e5db0e2dea1bf9a7ea/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7e25d8fdea75e92ef05edb9e844a842f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9e40b1b3c004e4a144c2ce79cb674ef6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/fe05e46274dacbc1e74b4a0acaf72288/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/fd8ba45a00d77f5ccd764f2504ffbc6e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/963c2aafa31b295344fd2bb62987cd42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/35699c8e7eff11c61d4ec1165704dbee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f766f73c03d7e48f1ed90dabd3ff3833/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6e09d91bf184610d4c726db473af911a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1112aeaaeede2eec1c75da3f8feb4f95/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dcb854b559ad90ba9f592077280d4358/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d058a6c973c9022f9872d5202dfa0c50/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3d916dda6700fa00b27877b797a0ff38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/de38ae861b96f5cf3e8f843503bc354f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/3ac911ad8d358af312eb595bd06289e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6dbbd1170fdf01b3f11372e2fceefd7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ff9bc156615266ca3344b5e520ebc1e4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/285762c9922bd1b878a897239b075199/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/eaf1d0bff12513ec7bfe52c0da974afc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/ba55974d4c11d7770033cfbb21c1d403/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0baa32d49512f95c264dea200be068c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/bf7379970224f221f9313c54ccb5c02b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/94ac66cd6ad42be1107eebd6d5a68558/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ecc974875dc388040e8ab814ab88ce87/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/02b1ab78d630a15113df4a65a632d1ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1b1d0f7c88963da44e6e141f10c4d521/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4154266e81fc09e68fc14fe1286c0b5e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fc82ee9d6de4b66b4fd5df2ada51a129/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/db1142978b970503e1ee396d41920052/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:5:5-30:19
+MERGED from [com.android.support:design:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c793c22f3b50945599000f859a0c5d22/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c793c22f3b50945599000f859a0c5d22/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/657f94f8f47fa7e5db0e2dea1bf9a7ea/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/657f94f8f47fa7e5db0e2dea1bf9a7ea/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ff9bc156615266ca3344b5e520ebc1e4/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ff9bc156615266ca3344b5e520ebc1e4/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/285762c9922bd1b878a897239b075199/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/285762c9922bd1b878a897239b075199/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ff9bc156615266ca3344b5e520ebc1e4/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:9:9-57
+	android:icon
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:7:9-38
+	android:allowBackup
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.tsantos_feelsbook.MainActivity
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:theme
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:14:13-44
+	android:name
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.tsantos_feelsbook.DisplayComment
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:21:9-52
+	android:name
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:21:19-49
+activity#com.example.tsantos_feelsbook.Statistics
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:22:9-48
+	android:name
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:22:19-45
+meta-data#preloaded_fonts
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:24:9-26:57
+	android:resource
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:26:13-54
+	android:name
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:25:13-43
+activity#com.example.tsantos_feelsbook.History
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:28:9-45
+	android:name
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:28:19-42
+activity#com.example.tsantos_feelsbook.Edit
+ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:29:9-51
+	android:name
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml:29:19-39
+uses-sdk
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c793c22f3b50945599000f859a0c5d22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c793c22f3b50945599000f859a0c5d22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8c0187fd8c0c3418596bb3d019c8b85c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8c0187fd8c0c3418596bb3d019c8b85c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/657f94f8f47fa7e5db0e2dea1bf9a7ea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/657f94f8f47fa7e5db0e2dea1bf9a7ea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7e25d8fdea75e92ef05edb9e844a842f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7e25d8fdea75e92ef05edb9e844a842f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9e40b1b3c004e4a144c2ce79cb674ef6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9e40b1b3c004e4a144c2ce79cb674ef6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/fe05e46274dacbc1e74b4a0acaf72288/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/fe05e46274dacbc1e74b4a0acaf72288/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/fd8ba45a00d77f5ccd764f2504ffbc6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/fd8ba45a00d77f5ccd764f2504ffbc6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/963c2aafa31b295344fd2bb62987cd42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/963c2aafa31b295344fd2bb62987cd42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/35699c8e7eff11c61d4ec1165704dbee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/35699c8e7eff11c61d4ec1165704dbee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f766f73c03d7e48f1ed90dabd3ff3833/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f766f73c03d7e48f1ed90dabd3ff3833/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6e09d91bf184610d4c726db473af911a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6e09d91bf184610d4c726db473af911a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1112aeaaeede2eec1c75da3f8feb4f95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1112aeaaeede2eec1c75da3f8feb4f95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dcb854b559ad90ba9f592077280d4358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dcb854b559ad90ba9f592077280d4358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d058a6c973c9022f9872d5202dfa0c50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d058a6c973c9022f9872d5202dfa0c50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3d916dda6700fa00b27877b797a0ff38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3d916dda6700fa00b27877b797a0ff38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/de38ae861b96f5cf3e8f843503bc354f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/de38ae861b96f5cf3e8f843503bc354f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/3ac911ad8d358af312eb595bd06289e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/3ac911ad8d358af312eb595bd06289e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6dbbd1170fdf01b3f11372e2fceefd7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6dbbd1170fdf01b3f11372e2fceefd7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ff9bc156615266ca3344b5e520ebc1e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ff9bc156615266ca3344b5e520ebc1e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/285762c9922bd1b878a897239b075199/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/285762c9922bd1b878a897239b075199/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/eaf1d0bff12513ec7bfe52c0da974afc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/eaf1d0bff12513ec7bfe52c0da974afc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/ba55974d4c11d7770033cfbb21c1d403/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/ba55974d4c11d7770033cfbb21c1d403/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0baa32d49512f95c264dea200be068c4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0baa32d49512f95c264dea200be068c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/bf7379970224f221f9313c54ccb5c02b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/bf7379970224f221f9313c54ccb5c02b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/94ac66cd6ad42be1107eebd6d5a68558/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/94ac66cd6ad42be1107eebd6d5a68558/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ecc974875dc388040e8ab814ab88ce87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ecc974875dc388040e8ab814ab88ce87/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/02b1ab78d630a15113df4a65a632d1ef/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/02b1ab78d630a15113df4a65a632d1ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1b1d0f7c88963da44e6e141f10c4d521/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1b1d0f7c88963da44e6e141f10c4d521/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4154266e81fc09e68fc14fe1286c0b5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4154266e81fc09e68fc14fe1286c0b5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fc82ee9d6de4b66b4fd5df2ada51a129/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fc82ee9d6de4b66b4fd5df2ada51a129/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/db1142978b970503e1ee396d41920052/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tylersantos/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/db1142978b970503e1ee396d41920052/AndroidManifest.xml:20:5-44
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tylersantos/Desktop/TSANTOSFeelsBook/app/src/main/AndroidManifest.xml
