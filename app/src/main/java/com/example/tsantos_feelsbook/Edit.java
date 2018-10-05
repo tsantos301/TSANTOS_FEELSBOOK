@@ -49,9 +49,7 @@ public class Edit extends AppCompatActivity implements AdapterView.OnItemSelecte
         loadFromFile();
 
         Intent intent = getIntent();
-        //int position = intent.getIntExtra("index",-1);
         position = intent.getIntExtra("index",-1);
-        Log.d("new",String.valueOf(position));
 
         displayRecord(position);
 
@@ -60,7 +58,6 @@ public class Edit extends AppCompatActivity implements AdapterView.OnItemSelecte
 
 
         Button saveButton = (Button) findViewById(R.id.saveButton2);
-
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -96,15 +93,8 @@ public class Edit extends AppCompatActivity implements AdapterView.OnItemSelecte
 
         try{
             newDate = sdf.parse(temp3);
-            Log.d("date",String.valueOf(newDate));
-
-            Log.d("deee",String.valueOf(feelingsArray.get(0).getFeelingName()));
-
             Feeling updateFeeling = new Feeling(newFeelingName,newDate,newComment);
             feelingsArray.set(position,updateFeeling);
-            Log.d("new",updateFeeling.getFeelingName());
-            //Log.d("new",String.valueOf(updateFeeling.getFeelingDate()));
-            //Log.d("new",updateFeeling.getFeelingComment());
             saveInFile();
             finish();
         }
@@ -125,26 +115,26 @@ public class Edit extends AppCompatActivity implements AdapterView.OnItemSelecte
     public void displayRecord(int position){
 
         Feeling selectedFeeling = feelingsArray.get(position);
-        Log.d("new",String.valueOf(selectedFeeling));
         String oldFeelingName = selectedFeeling.getFeelingName();
 
         Date oldFeelingDate = selectedFeeling.getFeelingDate();
         String oldFeelingDateString = Feeling.dateToString(oldFeelingDate);
 
         String oldFeelingComment = selectedFeeling.getFeelingComment();
-        Log.d("display",oldFeelingComment);
         setContentView(R.layout.activity_edit);
 
         TextView commentFeild = (TextView) findViewById(R.id.editComment);
         commentFeild.setText(oldFeelingComment);
 
-        // TO-DO implement default selection of spinner as what was already selected.
         Spinner spinner = (Spinner) findViewById(R.id.emotionSpinner);
+
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.Feeling_Names, android.R.layout.simple_spinner_item);
+
         // Specify the layout to use when the list of choices appears
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
         // Apply the adapter to the spinner
         spinner.setAdapter(adapter);
 
@@ -159,18 +149,12 @@ public class Edit extends AppCompatActivity implements AdapterView.OnItemSelecte
         TextView date = (TextView) findViewById(R.id.editDate);
         date.setText(oldFeelingDateString);
 
-
-
-
     }
 
     public void onItemSelected(AdapterView<?> parent, View view,
                                int pos, long id) {
-        // An item was selected. You can retrieve the selected item using
+        // An item was selected. You can retrieve the selected item using (String)parent.getItemAtPosition(pos);
        newFeelingName = (String)parent.getItemAtPosition(pos);
-
-       //Log.d("deee",newFeelingName);
-
 
     }
 
@@ -216,10 +200,8 @@ public class Edit extends AppCompatActivity implements AdapterView.OnItemSelecte
             fos.close();
 
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
@@ -230,7 +212,6 @@ public class Edit extends AppCompatActivity implements AdapterView.OnItemSelecte
     }
 
     protected void onStart() {
-        // TODO Auto-generated method stub
         super.onStart();
        loadFromFile();
     }

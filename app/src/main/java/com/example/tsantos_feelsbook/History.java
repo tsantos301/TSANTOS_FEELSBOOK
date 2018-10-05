@@ -38,22 +38,14 @@ public class History extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         loadFromFile();
-
-        //        for (Feeling each : feelingsArray){
-//            String date  = each.dateToString(each.getFeelingDate());
-//            stringFeelingsArray.add(each.getFeelingName()+ " - " + date);
-//        }
 
         for (Feeling each : feelingsArray){
             stringFeelingsArray.add(each.getFeelingName()+ " - " + String.valueOf(each.getFeelingDate()));
         }
 
         setContentView(R.layout.activity_history);
-
         ListView lv = (ListView) findViewById(R.id.historyList);
-
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -159,10 +151,8 @@ public class History extends AppCompatActivity {
             fos.close();
 
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
