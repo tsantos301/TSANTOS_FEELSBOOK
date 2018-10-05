@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TSANTOS-FeelsBook</string>
+    <string name="comment_text">Enter Comment here.</string>
+    <string name="title">Add a Comment to your Emotion:</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Delete">Delete</string>
+    <string name="Menu">Menu</string>
+    <string name="History">History</string>
+    <string name="Statistics">Statistics</string>
+    <string-array name="Feeling_Names">
+        <item>Joy</item>
+        <item>Sadness</item>
+        <item>Anger</item>
+        <item>Surprise</item>
+        <item>Fear</item>
+        <item>Love</item>
+    </string-array>
+</resources>
